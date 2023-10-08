@@ -1,0 +1,126 @@
+CRITICAL - 2023-10-08 19:50:14 --> include(components/sidebar): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\index.php on line 30.
+ 1 APPPATH\Views\admin\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(components/sidebar): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\index.php', 30)
+ 2 APPPATH\Views\admin\index.php(30): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/index', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('admin/index')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 19:57:50 --> include(components/sidebar): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\index.php on line 30.
+ 1 APPPATH\Views\admin\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(components/sidebar): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\index.php', 30)
+ 2 APPPATH\Views\admin\index.php(30): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\index.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/index', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('admin/index')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 20:01:23 --> include(components/logoutModal): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\components\footer.php on line 10.
+ 1 APPPATH\Views\admin\components\footer.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(components/logoutModal): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\components\\footer.php', 10)
+ 2 APPPATH\Views\admin\components\footer.php(10): include()
+ 3 APPPATH\Views\admin\index.php(374): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\components\\footer.php')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\index.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/index', [], true)
+ 7 APPPATH\Controllers\Home.php(9): view('admin/index')
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 20:01:34 --> include(components/logoutModal.php): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\components\footer.php on line 10.
+ 1 APPPATH\Views\admin\components\footer.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(components/logoutModal.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\components\\footer.php', 10)
+ 2 APPPATH\Views\admin\components\footer.php(10): include()
+ 3 APPPATH\Views\admin\index.php(374): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\components\\footer.php')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\index.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/index', [], true)
+ 7 APPPATH\Controllers\Home.php(9): view('admin/index')
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-08 21:49:53 --> include(components/footer): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\tables.php on line 527.
+ 1 APPPATH\Views\admin\tables.php(527): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(components/footer): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\tables.php', 527)
+ 2 APPPATH\Views\admin\tables.php(527): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\tables.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/tables', [], true)
+ 6 APPPATH\Controllers\Produto.php(9): view('admin/tables')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Produto->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 22:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 22:25:46 --> The route for "login.logout" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 487.
+ 1 SYSTEMPATH\Helpers\url_helper.php(487): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('login.logout')
+ 2 APPPATH\Views\admin\components\logoutModal.php(15): url_to('login.logout')
+ 3 APPPATH\Views\admin\components\footer.php(10): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\components\\logoutModal.php')
+ 4 APPPATH\Views\admin\dashboard.php(355): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\components\\footer.php')
+ 5 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\dashboard.php')
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 8 APPPATH\Controllers\Dashboard.php(13): view('admin/dashboard')
+ 9 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->index()
+10 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 22:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:31:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-08 22:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 22:32:42 --> Attempt to read property "nome" on null
+in APPPATH\Controllers\Login.php on line 11.
+ 1 APPPATH\Controllers\Login.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome" on null', 'C:\\xampp\\htdocs\\Mercadu.me\\app\\Controllers\\Login.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 22:32:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 22:32:50 --> Attempt to read property "nome" on null
+in APPPATH\Controllers\Login.php on line 11.
+ 1 APPPATH\Controllers\Login.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome" on null', 'C:\\xampp\\htdocs\\Mercadu.me\\app\\Controllers\\Login.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 22:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-08 22:32:53 --> Attempt to read property "nome" on null
+in APPPATH\Controllers\Login.php on line 11.
+ 1 APPPATH\Controllers\Login.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome" on null', 'C:\\xampp\\htdocs\\Mercadu.me\\app\\Controllers\\Login.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-08 22:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
