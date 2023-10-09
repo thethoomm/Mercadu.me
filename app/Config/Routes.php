@@ -20,3 +20,7 @@ $routes->get('/tabela/produtos', 'Produto::readProduct', ['as' => 'tabela.produt
 
 $routes->get('/adicionar/produtos', 'Produto::showForms', ['as' => 'adicionar.produtos']);
 $routes->post('/adicionar/produtos', 'Produto::addProduct', ['as' => 'adicionar.produtos.acao']);
+
+$routes->post('/tabela/usuario/atualizar/cargo', 'Usuario::changeRole', ['as' => 'role.change']);
+
+$routes->get('/tabela/usuarios', 'Usuario::readUser', ['as' => 'tabela.usuarios']);

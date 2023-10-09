@@ -17,9 +17,9 @@ class Produto extends BaseController
 
         $listaDeProdutos = $produtos->findAll();
 
-        echo view('admin/tables', [
+        echo view('admin/tabelaProdutos', [
             'titulo' => 'Tabela de Produtos',
-            'listaDeProdutos' => $listaDeProdutos
+            'lista' => $listaDeProdutos
         ]);
     }
 

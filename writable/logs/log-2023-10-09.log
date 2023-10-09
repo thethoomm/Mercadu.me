@@ -204,3 +204,320 @@ INFO - 2023-10-09 11:39:27 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-10-09 11:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-10-09 11:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-10-09 11:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:02:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 12:05:03 --> Undefined global variable $baseURL
+in APPPATH\Views\admin\components\sidebar.php on line 32.
+ 1 APPPATH\Views\admin\components\sidebar.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $baseURL', 'C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\components\\sidebar.php', 32)
+ 2 APPPATH\Views\admin\dashboard.php(11): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\components\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\dashboard.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/dashboard', [], true)
+ 6 APPPATH\Controllers\Dashboard.php(13): view('admin/dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 12:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 12:09:12 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\admin\tabelaUsuarios.php on line 48.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/tabelaUsuarios', [], true)
+ 4 APPPATH\Controllers\Usuario.php(22): view('admin/tabelaUsuarios', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->readUser()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 12:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 12:10:07 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\admin\tabelaUsuarios.php on line 48.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/tabelaUsuarios', [], true)
+ 4 APPPATH\Controllers\Usuario.php(22): view('admin/tabelaUsuarios', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->readUser()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 12:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:26:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 12:33:58 --> Object of class App\Entities\UsuarioEntity could not be converted to string
+in APPPATH\Views\admin\components\roleModal.php on line 10.
+ 1 APPPATH\Views\admin\tabelaUsuarios.php(92): include()
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\tabelaUsuarios.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/tabelaUsuarios', [], true)
+ 5 APPPATH\Controllers\Usuario.php(27): view('admin/tabelaUsuarios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->readUser()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 12:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 12:34:58 --> Object of class App\Entities\UsuarioEntity could not be converted to string
+in APPPATH\Views\admin\components\roleModal.php on line 10.
+ 1 APPPATH\Views\admin\tabelaUsuarios.php(92): include()
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\tabelaUsuarios.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/tabelaUsuarios', [], true)
+ 5 APPPATH\Controllers\Usuario.php(27): view('admin/tabelaUsuarios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->readUser()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 12:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 12:35:00 --> Object of class App\Entities\UsuarioEntity could not be converted to string
+in APPPATH\Views\admin\components\roleModal.php on line 10.
+ 1 APPPATH\Views\admin\tabelaUsuarios.php(92): include()
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\tabelaUsuarios.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/tabelaUsuarios', [], true)
+ 5 APPPATH\Controllers\Usuario.php(27): view('admin/tabelaUsuarios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->readUser()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 12:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 12:35:14 --> Attempt to read property "nome" on string
+in APPPATH\Views\admin\components\roleModal.php on line 10.
+ 1 APPPATH\Views\admin\components\roleModal.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nome" on string', 'C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\components\\roleModal.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\components\\roleModal.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/components/roleModal', [], true)
+ 5 APPPATH\Controllers\Usuario.php(32): view('admin/components/roleModal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->readUser()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 12:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 12:35:26 --> Undefined variable $nome
+in APPPATH\Views\admin\components\roleModal.php on line 10.
+ 1 APPPATH\Views\admin\components\roleModal.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nome', 'C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\components\\roleModal.php', 10)
+ 2 APPPATH\Views\admin\tabelaUsuarios.php(92): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\components\\roleModal.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\tabelaUsuarios.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/tabelaUsuarios', [], true)
+ 6 APPPATH\Controllers\Usuario.php(27): view('admin/tabelaUsuarios', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->readUser()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 12:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 12:35:36 --> Undefined variable $nome
+in APPPATH\Views\admin\components\roleModal.php on line 10.
+ 1 APPPATH\Views\admin\components\roleModal.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nome', 'C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\components\\roleModal.php', 10)
+ 2 APPPATH\Views\admin\tabelaUsuarios.php(92): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\components\\roleModal.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\tabelaUsuarios.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/tabelaUsuarios', [], true)
+ 6 APPPATH\Controllers\Usuario.php(27): view('admin/tabelaUsuarios', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->readUser()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 12:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 12:35:37 --> Undefined variable $nome
+in APPPATH\Views\admin\components\roleModal.php on line 10.
+ 1 APPPATH\Views\admin\components\roleModal.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nome', 'C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\components\\roleModal.php', 10)
+ 2 APPPATH\Views\admin\tabelaUsuarios.php(92): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\components\\roleModal.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\tabelaUsuarios.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/tabelaUsuarios', [], true)
+ 6 APPPATH\Controllers\Usuario.php(27): view('admin/tabelaUsuarios', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->readUser()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 12:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 12:35:37 --> Undefined variable $nome
+in APPPATH\Views\admin\components\roleModal.php on line 10.
+ 1 APPPATH\Views\admin\components\roleModal.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nome', 'C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\components\\roleModal.php', 10)
+ 2 APPPATH\Views\admin\tabelaUsuarios.php(92): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\components\\roleModal.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\tabelaUsuarios.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/tabelaUsuarios', [], true)
+ 6 APPPATH\Controllers\Usuario.php(27): view('admin/tabelaUsuarios', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->readUser()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 12:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 12:35:37 --> Undefined variable $nome
+in APPPATH\Views\admin\components\roleModal.php on line 10.
+ 1 APPPATH\Views\admin\components\roleModal.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nome', 'C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\components\\roleModal.php', 10)
+ 2 APPPATH\Views\admin\tabelaUsuarios.php(92): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\components\\roleModal.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\tabelaUsuarios.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/tabelaUsuarios', [], true)
+ 6 APPPATH\Controllers\Usuario.php(27): view('admin/tabelaUsuarios', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->readUser()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 12:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 12:35:45 --> Undefined variable $nome
+in APPPATH\Views\admin\components\roleModal.php on line 10.
+ 1 APPPATH\Views\admin\components\roleModal.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nome', 'C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\components\\roleModal.php', 10)
+ 2 APPPATH\Views\admin\tabelaUsuarios.php(92): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\components\\roleModal.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\tabelaUsuarios.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/tabelaUsuarios', [], true)
+ 6 APPPATH\Controllers\Usuario.php(27): view('admin/tabelaUsuarios', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->readUser()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 12:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 12:35:46 --> Undefined variable $nome
+in APPPATH\Views\admin\components\roleModal.php on line 10.
+ 1 APPPATH\Views\admin\components\roleModal.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nome', 'C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\components\\roleModal.php', 10)
+ 2 APPPATH\Views\admin\tabelaUsuarios.php(92): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\components\\roleModal.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\tabelaUsuarios.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/tabelaUsuarios', [], true)
+ 6 APPPATH\Controllers\Usuario.php(27): view('admin/tabelaUsuarios', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->readUser()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 12:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 12:35:52 --> Undefined variable $nome
+in APPPATH\Views\admin\components\roleModal.php on line 10.
+ 1 APPPATH\Views\admin\components\roleModal.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nome', 'C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\components\\roleModal.php', 10)
+ 2 APPPATH\Views\admin\tabelaUsuarios.php(92): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\components\\roleModal.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\tabelaUsuarios.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/tabelaUsuarios', [], true)
+ 6 APPPATH\Controllers\Usuario.php(27): view('admin/tabelaUsuarios', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->readUser()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 12:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 12:38:16 --> The route for "role.change.funcionario" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 487.
+ 1 SYSTEMPATH\Helpers\url_helper.php(487): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('role.change.funcionario')
+ 2 APPPATH\Views\admin\components\roleModal.php(12): url_to('role.change.funcionario')
+ 3 APPPATH\Views\admin\tabelaUsuarios.php(92): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\components\\roleModal.php')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\tabelaUsuarios.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/tabelaUsuarios', [], true)
+ 7 APPPATH\Controllers\Usuario.php(27): view('admin/tabelaUsuarios', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->readUser()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 12:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 12:40:19 --> The route for "role.change" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 487.
+ 1 SYSTEMPATH\Helpers\url_helper.php(487): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('role.change')
+ 2 APPPATH\Views\admin\components\roleModal.php(11): url_to('role.change')
+ 3 APPPATH\Views\admin\tabelaUsuarios.php(92): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\components\\roleModal.php')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\tabelaUsuarios.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/tabelaUsuarios', [], true)
+ 7 APPPATH\Controllers\Usuario.php(27): view('admin/tabelaUsuarios', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->readUser()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 12:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 12:45:31 --> Undefined variable $cargo
+in APPPATH\Views\admin\components\roleModal.php on line 14.
+ 1 APPPATH\Views\admin\components\roleModal.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cargo', 'C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\components\\roleModal.php', 14)
+ 2 APPPATH\Views\admin\tabelaUsuarios.php(92): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\components\\roleModal.php')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\tabelaUsuarios.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/tabelaUsuarios', [], true)
+ 6 APPPATH\Controllers\Usuario.php(27): view('admin/tabelaUsuarios', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->readUser()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 12:45:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:46:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-09 12:54:18 --> include(components/roleModal.php): Failed to open stream: No such file or directory
+in APPPATH\Views\admin\tabelaUsuarios.php on line 92.
+ 1 APPPATH\Views\admin\tabelaUsuarios.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(components/roleModal.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\tabelaUsuarios.php', 92)
+ 2 APPPATH\Views\admin\tabelaUsuarios.php(92): include()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Mercadu.me\\app\\Views\\admin\\tabelaUsuarios.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/tabelaUsuarios', [], true)
+ 6 APPPATH\Controllers\Usuario.php(27): view('admin/tabelaUsuarios', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Usuario->readUser()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-09 12:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 12:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 13:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 13:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 13:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 13:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 13:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 13:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 13:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 13:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 13:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 13:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-09 13:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
