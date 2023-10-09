@@ -18,6 +18,7 @@ class Produto extends BaseController
         $listaDeProdutos = $produtos->findAll();
 
         echo view('admin/tables', [
+            'titulo' => 'Tabela de Produtos',
             'listaDeProdutos' => $listaDeProdutos
         ]);
     }
@@ -27,7 +28,9 @@ class Produto extends BaseController
         if (!session()->has('usuario')) {
             return redirect()->route('login');
         }
-        echo view('admin/adicionarProdutos');
+        echo view('admin/adicionarProdutos', [
+            'titulo' => 'Adicionar Produtos'
+        ]);
     }
 
     public function addProduct() {

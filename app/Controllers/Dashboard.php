@@ -10,6 +10,8 @@ class Dashboard extends BaseController
         if (!session()->has('usuario')) {
             return redirect()->route('login');
         }
-        echo view('admin/dashboard');
+        echo view('admin/dashboard', [
+            'titulo' => 'Dashboard'
+        ]);
     }
 }

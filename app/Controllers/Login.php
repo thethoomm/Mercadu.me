@@ -8,10 +8,16 @@ class Login extends BaseController
 {
     public function index()
     {
-        echo view('admin/login');
+        if (session()->has('usuario')) {
+            return redirect()->route('dashboard');
+        }
+        echo view('admin/login', [
+            'titulo' => 'Login'
+        ]);
     }
 
-    public function store() {
+    public function store()
+    {
         $email = $this->request->getPost('email');
         $senha = $this->request->getPost('senha');
 
@@ -41,11 +47,33 @@ class Login extends BaseController
         return redirect()->route('dashboard');
     }
 
-    public function logout() {
+    public function logout()
+    {
         // Destroi a sessão
         session()->destroy();
 
         // Redireciona para a pagina de login
+        return redirect()->route('login');
+    }
+
+    public function register()
+    {
+        echo view('admin/register', [
+            'titulo' => 'Cadastrar-se'
+        ]);
+    }
+
+    public function registerStore()
+    {
+        $usuario = new UsuarioModel();
+
+        $usuario->insert([
+            'nome' => $this->request->getPost('nome'),
+            'email' => $this->request->getPost('email'),
+            'senha' => $this->request->getPost('senha'),
+            'cargo' => 1
+        ]);
+
         return redirect()->route('login');
     }
 }
