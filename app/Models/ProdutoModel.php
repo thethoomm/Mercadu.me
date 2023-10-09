@@ -3,22 +3,22 @@
 namespace App\Models;
 
 use CodeIgniter\Model;
-use App\Entities\UsuarioEntity;
+use App\Entities\ProdutoEntity;
 
-class UsuarioModel extends Model
+class ProdutoModel extends Model
 {
     protected $DBGroup          = 'default';
-    protected $table            = 'usuario';
-    protected $primaryKey       = 'id';
+    protected $table            = 'produtos';
+    protected $primaryKey       = 'prod_id';
     protected $useAutoIncrement = true;
-    protected $returnType       = UsuarioEntity::class;
+    protected $returnType       = ProdutoEntity::class;
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
     protected $allowedFields    = [
-        'nome',
-        'email',
-        'senha',
-        'cargo'
+        'prod_nome',
+        'prod_preco',
+        'prod_marca',
+        'prod_quantidade'
     ];
 
     // Dates

@@ -13,4 +13,7 @@ $routes->get('/login/sair', 'Login::logout', ['as' => 'login.logout']);
 
 $routes->get('/dashboard', 'Dashboard::index', ['as' => 'dashboard']);
 
-$routes->get('/tabela/produtos', 'Produto::index', ['as' => 'tabela.produtos']);
+$routes->get('/tabela/produtos', 'Produto::readProduct', ['as' => 'tabela.produtos']);
+
+$routes->get('/adicionar/produtos', 'Produto::showForms', ['as' => 'adicionar.produtos']);
+$routes->post('/adicionar/produtos', 'Produto::addProduct', ['as' => 'adicionar.produtos.acao']);
