@@ -31,7 +31,7 @@
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
-                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                <table class="table table-bordered" id="tabelaProdutos" width="100%" cellspacing="0">
                                     <thead>
                                         <tr>
                                             <th>ID</th>
@@ -83,6 +83,14 @@
     <?php include('components/scroolToTop.php') ?>
 
     <?php include('components/coresEssentials.php') ?>
+
+    <script>
+        $(document).ready(function() {
+            $('#tabelaProdutos').DataTable({
+                "ajax": "Ajax/UsuarioAjax/getData"
+            });
+        });
+    </script>
 
 </body>
 

@@ -43,26 +43,26 @@
                                     </thead>
                                     <tfoot>
                                         <tr>
-                                            <th colspan="100">Total de usuários: <?= count($lista)?></th>
+                                            <th colspan="100">Total de usuários: <?= count($lista) ?></th>
                                         </tr>
                                     </tfoot>
                                     <tbody>
                                         <?php foreach ($lista as $usuario) : ?>
                                             <tr>
-                                                <td><?= $usuario->id?></td>
+                                                <td><?= $usuario->id ?></td>
                                                 <td><?= $usuario->nome ?></td>
-                                                <td><?= $usuario->email?></td>
+                                                <td><?= $usuario->email ?></td>
                                                 <td>
-                                                    <?php if(!$usuario->cargo):?>
+                                                    <?php if (!$usuario->cargo) : ?>
                                                         <span class="badge badge-primary">Administrador</span>
-                                                    <?php else: ?>
+                                                    <?php else : ?>
                                                         <span class="badge badge-warning">Funcionário</span>
                                                     <?php endif; ?>
                                                 </td>
                                                 <td>
-                                                    <?php if($usuario->ativo):?>
+                                                    <?php if ($usuario->ativo) : ?>
                                                         <span class="badge badge-success">Ativo</span>
-                                                    <?php else: ?>
+                                                    <?php else : ?>
                                                         <span class="badge badge-secondary">Inativo</span>
                                                     <?php endif; ?>
                                                 </td>
@@ -91,8 +91,5 @@
     <?php include('components/scroolToTop.php') ?>
 
     <?php include('components/coresEssentials.php') ?>
-    
-
 </body>
 </html>
-
